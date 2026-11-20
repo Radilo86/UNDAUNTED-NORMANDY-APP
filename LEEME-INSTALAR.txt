@@ -1,0 +1,40 @@
+UNDAUNTED: NORMANDY — SOLO COMMANDER · VERSIÓN INSTALABLE (iPhone, iPad y Android)
+====================================================================================
+
+Esta carpeta es la app lista para instalar con su icono. iOS solo instala apps que se
+abren desde una dirección web (https), así que hay que subir la carpeta UNA VEZ a un
+alojamiento gratuito. Después la app funciona sin conexión.
+
+1) SUBIR LA CARPETA (5 minutos, desde un ordenador)
+   Opción A · Netlify (la más sencilla)
+     - Entra en https://app.netlify.com/drop
+     - Arrastra ESTA CARPETA entera (la que contiene index.html) a la página.
+     - Te da una dirección tipo https://nombre-raro-123.netlify.app
+     - Crea una cuenta gratuita y pulsa «Claim» para conservarla: si no, el sitio se
+       borra al cabo de un rato.
+     - (Opcional) En la configuración del sitio puedes cambiar el nombre por algo
+       como https://solo-commander-tunombre.netlify.app
+   Opción B · Cloudflare (https://www.cloudflare.com/drop) o Vercel (https://vercel.com/drop)
+     - Igual: arrastrar la carpeta y reclamar el sitio con una cuenta gratuita.
+   Opción C · GitHub Pages, si ya usas GitHub: sube el contenido a un repositorio y
+     activa Pages.
+
+2) INSTALAR EN EL iPHONE / iPAD
+   - Abre la dirección en SAFARI.
+   - (Opcional) Si quieres otro icono, por ejemplo una foto de la portada de tu caja:
+     Ajustes (rueda dentada) › Instalar / icono › Usar una foto propia. Hazlo ANTES del
+     paso siguiente.
+   - Toca Compartir (en iOS 26 está dentro del botón «…» junto a la dirección).
+   - «Añadir a pantalla de inicio», deja activado «Abrir como app web» y toca «Añadir».
+   - Abre la app desde el icono una vez con conexión. A partir de ahí funciona sin red.
+
+3) BUENO SABER
+   - La app instalada guarda partidas e historial aparte de Safari. Para pasar una
+     partida: Ajustes › Guardar / cargar › Descargar, y luego Importar en la app.
+   - Actualizar: sube la carpeta nueva al mismo sitio (en Netlify, arrástrala en la
+     pestaña «Deploys» del sitio). La app se actualiza sola la siguiente vez que la
+     abras con conexión (puede hacer falta abrirla dos veces).
+   - Icono propio sin usar la app: sustituye apple-touch-icon.png (180×180 px, sin
+     transparencia) por tu imagen antes de subir la carpeta.
+   - El archivo HTML suelto (undaunted-solo-commander.html) sigue sirviendo para
+     jugar sin instalar nada, abierto desde Archivos o cualquier navegador.
