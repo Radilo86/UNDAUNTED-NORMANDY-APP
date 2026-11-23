@@ -1,5 +1,5 @@
-// Solo Commander — service worker (versión 202611200802)
-const CACHE = 'usc-202611200802';
+// Solo Commander — service worker (versión 202611201141)
+const CACHE = 'usc-202611201141';
 const FILES = ["./","./index.html","./manifest.webmanifest","./apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./icons/favicon-32.png"];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
